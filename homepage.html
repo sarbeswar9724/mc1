@@ -1,0 +1,77 @@
+<html>
+    <head><br>
+        <br><br><br><br><br><br><br>
+     <div class="img"><img src="pupi.png"/></div>
+     <div><link rel="stylesheet" href="new.css"/> </div>    
+<link rel="stylesheet" href="homepage.css">
+<script rel="text/javascript" src="jquery.js"></script>
+<link rel="stylesheet" href="expt2.css">
+
+<script>
+    $(document).ready(function(){
+        $('.menu-btn').click(function(){
+            $('.side-bar').toggleClass('active');
+        });
+    });
+</script>
+<script>function myFunction(x)
+{
+    x.classList.toggle('change');
+}
+    </script>
+     </head>
+    <body>
+         <div class="header">
+
+    </div>
+        <div class="menu-container">
+            <button class="menu-btn" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <div class="menu-item">
+                <ul>
+                    <li><a href="" >home</a></li>
+                    <li><a href="">admission</a></li>
+                    <li><a href="COURSE.html">course and study</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">help and info</a></li></ul> 
+            </div>
+        </div>
+        <div class="side-bar">
+            <ul>
+                <li><a href="" >DEPT</a></li>
+                <li><a href="">LECTURE</a></li>
+                <li><a href="">STUDENT'S</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">LIBRARY</a></li></ul></div>
+                <div class="log">
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width: auto;">login</button>
+    <div id="id01" class="modal">
+        <form class="modal-content animate">
+            <div class="image-container">
+                <span
+                 onclick="document.getElementById('id01').style.display='none'" class="close" title="close modal">
+                </span>
+                <img src="suman.jpg" alt="AVATAR" class="avatar">
+            </div>
+            <div class="container">
+                <label for="uname"><b>username:</b></label>
+                <input type="text" name="n1" id="n1" placeholder="enter name" required/>
+                <label for"psw" ><b>password</b></label>
+<input type="password" name="p1" id="p1" required/>
+<button type="submit">login</button><button type="reset"> clear</button>
+<label>
+    <input type="checkbox" checked="checked" name="rembere">remember me
+</label>
+<div class="=container" style ="background-color: black;">
+<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancel-btn">cancel</button><span class="psw" >forgot<a href="#">password/</a></span>
+</div>
+        </form>
+    </div>
+ 
+        
+       </body></html>
+
+
